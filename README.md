@@ -36,7 +36,7 @@ Successed or Failed?: Successed
 experiment 2
 ---
 1. 8数码问题  
-- 在图1，3*3的方格棋盘上，摆放着1到8这八个数码，有1个方格是空。  
+- 在图1，3\*3的方格棋盘上，摆放着1到8这八个数码，有1个方格是空。  
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/fcd616da-544c-4d05-93eb-24e3e5317085" /><br>
 - 如图1所示，要求对空格执行空格左移、空格右移、空格上移和空格下移这四个操作使得棋盘从初始状态（图1左）到目标状态（图1右）。  
 - 可自行设计初始状态。目标状态为数字从小到大按顺时针排列。  
@@ -44,7 +44,7 @@ experiment 2
 
 2. 罗马尼亚问题  
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/edf2224a-3724-474c-9482-2cd6b9d28bd9" /><br>
-- 根据上图以Zerind为初始状态，Bucharest为目标状态实现搜索，分别以贪婪搜索（只考虑直线距离）和A*算法求解最短路径。 按顺序列出贪婪算法探索的扩展节点和其估价函数值，A*算法探索的扩展节点和其估计值。  
+- 根据上图以Zerind为初始状态，Bucharest为目标状态实现搜索，分别以贪婪搜索（只考虑直线距离）和A\*算法求解最短路径。 按顺序列出贪婪算法探索的扩展节点和其估价函数值，A\*算法探索的扩展节点和其估计值。  
 - (Optional) 自行设计一个新的启发式函数,并分析该函数的可采纳性和优势(与启发式函数定义为“Zerind到Bucharest的直线距离”相比较)。  
 
 experiment 3
